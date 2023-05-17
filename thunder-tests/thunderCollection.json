@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "colName": "EcommerceApp-mern",
+    "created": "2023-05-13T15:13:40.497Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "fc8a2c59-425c-41ca-a570-f2b96006ed04",
+        "name": "category",
+        "containerId": "",
+        "created": "2023-05-13T17:57:47.290Z",
+        "sortNum": 10000
+      }
+    ]
+  }
+]

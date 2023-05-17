@@ -1,0 +1,180 @@
+[
+  {
+    "_id": "ea5bc7cd-e578-4aed-9f48-cf5f4311c0e0",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "",
+    "name": "Delete product ",
+    "url": "http://localhost:8080/api/v1/product/delete",
+    "method": "DELETE",
+    "sortNum": 10000,
+    "created": "2023-05-13T15:13:51.381Z",
+    "modified": "2023-05-13T15:14:51.636Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "67d07a87-b7cc-4a17-aac9-d580d6235a1d",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "",
+    "name": "POST login ",
+    "url": "http://localhost:8080/api/v1/auth/login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-05-13T16:46:50.109Z",
+    "modified": "2023-05-13T16:47:33.031Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"admin@admin.com\",\n  \"password\": \"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e6b53095-1710-4a8c-b084-7f79d5995b80",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "",
+    "name": "POST Create product ",
+    "url": "http://localhost:8080/api/v1/product/create-product",
+    "method": "POST",
+    "sortNum": 25000,
+    "created": "2023-05-13T16:49:15.117Z",
+    "modified": "2023-05-13T17:24:35.758Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDQ1NDc0OTg2OTY4N2RjNTlmMzk0MjQiLCJpYXQiOjE2ODM5OTY0NTMsImV4cCI6MTY4NDYwMTI1M30.npUxsVYvgqUED5fYg6BqLTDIPE6HkIkWqd7f1CYxZfg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Luxury Watchy"
+        },
+        {
+          "name": "description",
+          "value": "mordern lux watch design"
+        },
+        {
+          "name": "price",
+          "value": "10"
+        },
+        {
+          "name": "quantity",
+          "value": "1"
+        },
+        {
+          "name": "category",
+          "value": "645f9740fc2a67c900892da3"
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../Downloads/images.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "72cf61c4-a21d-4bf2-bd44-cac25f4ac34d",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "",
+    "name": "PUT update product  ",
+    "url": "http://localhost:8080/api/v1/product/update-product/645fc4717f9d827530543824",
+    "method": "PUT",
+    "sortNum": 27500,
+    "created": "2023-05-13T16:51:06.568Z",
+    "modified": "2023-05-13T17:21:00.253Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDQ1NDc0OTg2OTY4N2RjNTlmMzk0MjQiLCJpYXQiOjE2ODM5OTg0NDgsImV4cCI6MTY4NDYwMzI0OH0.Jqz9LUANCT8i9q-Txa4cJLMN6pmt1fOjVUCsbeqtyAg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Creative Logy"
+        },
+        {
+          "name": "description",
+          "value": "mordern logy design"
+        },
+        {
+          "name": "price",
+          "value": "5"
+        },
+        {
+          "name": "quantity",
+          "value": "1"
+        },
+        {
+          "name": "category",
+          "value": "645f9740fc2a67c900892da3"
+        }
+      ],
+      "files": [
+        {
+          "name": "photo",
+          "value": "../../../../Downloads/download.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a4ae1872-57e6-49d0-a821-0d2dbd5a53c5",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "",
+    "name": "GET /",
+    "url": "http://localhost:8080/api/v1/category/get-category",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2023-05-13T17:20:22.028Z",
+    "modified": "2023-05-17T04:16:41.861Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"admin@admin.com\",\n  \"password\": \"admin\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5998a448-e025-4846-847b-505435e23e36",
+    "colId": "169763a8-9c60-4aec-b16c-85c31526bff2",
+    "containerId": "fc8a2c59-425c-41ca-a570-f2b96006ed04",
+    "name": "create category ",
+    "url": "http://localhost:8080/api/v1/category/create-category",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-05-13T17:57:58.045Z",
+    "modified": "2023-05-13T18:00:38.344Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDQ1NDc0OTg2OTY4N2RjNTlmMzk0MjQiLCJpYXQiOjE2ODM5OTY0NTMsImV4cCI6MTY4NDYwMTI1M30.npUxsVYvgqUED5fYg6BqLTDIPE6HkIkWqd7f1CYxZfg"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"digital kids\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
